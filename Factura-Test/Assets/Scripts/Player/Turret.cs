@@ -8,7 +8,6 @@ public class Turret : MonoBehaviour, IPlayerModule
     public Player Owner { get; set; }
     [SerializeField] private float _rotationSpeed;
     [Space]
-    [SerializeField] private Bullet _bullet;
     [SerializeField] private Transform _bulletSpawnPoint;
     [SerializeField] private float _delay = 3f;
     [SerializeField] private ParticleSystem _shoot;
